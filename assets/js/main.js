@@ -16,6 +16,10 @@
         $('html, body').animate({scrollTop: $('.js--section-footer').offset().top}, 1000);
     });
     
+    $('.js--scroll-to-header').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-header').offset().top}, 1000);
+    });
+    
 	// Breakpoints.
 		breakpoints({
 			xlarge:	'(max-width: 1680px)',
